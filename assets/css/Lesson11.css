@@ -1,0 +1,88 @@
+.prapor{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border: 1px solid gray;
+}
+.circle{
+    position: absolute;
+    left: 154px;
+    top: 55px;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+}
+.back_insta{
+    background: rgb(255,218,11);
+    background: linear-gradient(180deg, rgba(255,218,11,1) 7%, rgba(203,166,5,1) 74%);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 500px;
+    border-radius:65px;
+}
+.second_back_insta{
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 325px;
+    top: 25px;
+}
+.third_back_insta{
+    border: 15px solid white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 220px;
+    top: 70px;
+}
+.fourth_back_insta{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 220px;
+    top: 60px;
+}
+.torch{
+    display: flex;
+    flex-direction: column;
+}
+.fire{
+    transform: rotate(45deg);
+    background: rgb(232,117,40);
+    background: linear-gradient(90deg, rgba(232,117,40,1) 35%, rgba(255,188,0,1) 61%);  
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 100px 100px 100px;
+}
+.black{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    box-shadow: white;
+    z-index: 2;
+}
+.stovbyr{
+    background: rgb(210,154,0);
+    background: linear-gradient(90deg, rgba(210,154,0,1) 38%, rgba(210,154,0,1) 70%);
+    width: 20px;
+    height: 150px;
+    position: relative;
+    top: -23px;
+    left: 32px;
+}

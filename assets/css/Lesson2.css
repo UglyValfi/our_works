@@ -1,0 +1,12 @@
+body{
+    background-color: mintcream;
+    font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+}
+.Telegram{
+    color: darkcyan;
+}
+.img{
+    background-color: rgb(#181, #212, #233);
+    border-radius:50% ;
+}

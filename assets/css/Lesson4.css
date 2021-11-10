@@ -1,0 +1,91 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo_main{
+    text-align: center;
+}
+.logo{
+    color:aqua
+    
+}
+.main{
+    margin-left: 30px;
+    border-spacing: 10px 30px;
+}
+.main-left{
+    border-radius: 15px;
+    width: 300px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+    box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+}
+.main_right{
+    border-radius: 15px;
+
+    margin-left: 60px;
+    width: 1300px;
+    height: 800px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+    box-shadow: 8px 4px 44px 30px rgba(34, 60, 80, 0.2);
+}
+li{
+    list-style: none;
+}
+.imga{
+    margin-left: 50px;
+
+}
+.info{
+    margin-left: 20px;
+}
+.textinfo{
+    margin-left: 40px;
+}
+.Skills{
+    margin-left: 40px;
+}
+.skillstext{
+    margin-left: 35px;
+}
+.Languages{
+    margin-left: 35px;
+}
+.textlanguages{
+    margin-left: 40px;
+}
+.Education{
+    margin-left: 10px;
+}
+.ul_hobi{
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.Contact_me{
+    text-decoration: none;
+    background-color: LightGreen;
+    color: white;
+    margin-left:  450px;
+    padding:10px
+}
+.Contact{
+    margin-left: 55px;
+}
+td{
+    width: 1000px;
+}
+.hr{
+    margin-top: 10px;
+}
+.table_right{
+    margin-left: 10px;
+}
+.ul_networks{
+    margin-left: -40px;
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+.main_div{
+    border: 5px solid pink;
+}
+.area_first{
+    background-color: orange;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_second{
+    display: flex;
+    flex-direction: row;
+}
+.area_left_inner{
+    background-color: blue;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_right_inner{
+    background-color: lightgreen;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_third{
+    display: flex;
+    flex-direction: row;
+}
+.first_inner{
+    background-color: pink;
+    width: 33%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_inner{
+    background-color: gold;
+    width: 33%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third_inner{
+    background-color: purple;
+    width: 35%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
