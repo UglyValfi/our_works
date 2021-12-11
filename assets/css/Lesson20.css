@@ -1,0 +1,55 @@
+.header {
+    display: grid;
+    grid-template-columns: 598px 972px;
+    grid-template-rows: 400px;
+    grid-auto-columns: 1270px 600px;
+    grid-auto-rows: 300px 1200fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "left-header right-header";
+    border: 1px solid black;
+  }
+  
+  .left-header { grid-area: left-header;}
+  
+  .right-header { grid-area: right-header; }
+  .main {
+    border: 1px solid black;
+    display: grid; 
+    grid-auto-columns: 1270px 600px; 
+    grid-auto-rows: 300px 1200fr; 
+    grid-template-columns: 1.3fr 1fr 0.7fr; 
+    grid-template-rows: 400px; 
+    gap: 0px 14px; 
+    grid-template-areas: 
+      ". . ."; 
+  }
+  .main_first{
+    display: flex;
+    flex-direction: row;
+  }
+  .manga_four{
+    margin-left: -60px;
+  }
+  .third {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 600px;
+    grid-auto-columns: 1270px 100px;
+    grid-auto-rows: 300px 1200fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "third_page . . .";
+  }
+  
+  .third_page { grid-area: third_page; }
+.manga_second{
+  margin-left: 277px;
+}
+.third_page{
+  display: flex;
+  flex-direction: row;
+}
