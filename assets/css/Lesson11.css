@@ -7,8 +7,8 @@
 }
 .circle{
     position: absolute;
-    left: 154px;
-    top: 55px;
+    left: 125px;
+    top: 45px;
     border-radius: 60px;
     width: 120px;
     height: 120px;
@@ -19,8 +19,8 @@
     flex-direction: row;
 }
 .back_insta{
-    background: rgb(255,218,11);
-    background: linear-gradient(180deg, rgba(255,218,11,1) 7%, rgba(203,166,5,1) 74%);
+    background: rgb(246,21,75);
+    background: linear-gradient(90deg, rgba(246,21,75,1) 0%, rgba(240,2,202,1) 35%, rgba(255,0,219,1) 100%);
     width: 200px;
     height: 200px;
     position: relative;
@@ -68,21 +68,22 @@
 }
 .black{
     background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 40px;
+    height: 42px;
+    border-radius: 700px;
     position: relative;
     top: -20px;
-    left: 20px;
+    left: 25px;
     box-shadow: white;
-    z-index: 2;
+    z-index: 1;
+
 }
 .stovbyr{
-    background: rgb(210,154,0);
-    background: linear-gradient(90deg, rgba(210,154,0,1) 38%, rgba(210,154,0,1) 70%);
-    width: 20px;
+    background-color: rgb(151, 68, 0);
+    width: 30px;
     height: 150px;
     position: relative;
-    top: -23px;
-    left: 32px;
+    top: -30px;
+    left: 30px;
+    z-index: 2;
 }

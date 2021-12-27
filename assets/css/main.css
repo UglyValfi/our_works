@@ -1,73 +1,9 @@
 body{
-    background: linear-gradient(45deg, #9890e3, #b1f4cf);}
+    background: linear-gradient(45deg, #a8edea, #fed6e3);
+}
 .header{
     padding:20px;
 }
-input{
-    height: 0;
-}
-input::before {
-    width: 45px;
-    height: 45px;
-    content: "";
-    background-image: url(../images/anime.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: fixed;
-    top: 19px;
-    left: 1385px;
-    z-index: 2;
-}
-input:checked + .bgg{
-    background-color: rgba(0, 0, 0, 0.829);
-    transition: 0.25s;
-}
-input:checked + .bgg .header{
-    background-color: rgba(0, 0, 0, 0.555);
-    color: #fff;
-    transition: 0.25s;
-}
-input:checked + body{
-    background-color: rgba(0, 0, 0, 0.555);
-}
-input:checked + .bgg .nav_inner{
-    background-color: rgba(0, 0, 0, 0.555);
-    color: #fff;
-    transition: 0.25s;
-}
-input:checked + .bgg .nav_lesson_inner{
-    background-color: rgba(207, 207, 207, 0.164);
-    color: #fff;
-    transition: 0.25;
-}
-input:checked + .bgg .nav_lesson{
-    background-color: rgba(207, 207, 207, 0.164);
-    color: #fff;
-    transition: 0.25s;
-}
-input:checked + .bgg .nav_lesson:hover{
-    transition: 0.25s;
-    -webkit-box-shadow: -2px 3px 40px 41px rgba(0, 185, 83, 0.596);
-    -moz-box-shadow: -2px 3px 40px 41px rgb(1, 133, 23);
-    box-shadow: -2px 3px 40px 41px rgba(3, 194, 3, 0.555);
-}
-input:checked + .bgg .nav_lesson_second{
-    background-color: rgba(0, 0, 0, 0.555);
-    color: white;
-    transition: 0.25s;
-}
-input:checked + .bgg .button{
-    border: 2px solid rgb(214, 217, 214, 0.288);
-    color: black;
-    transition: 0.25s;
-}
-input:checked + .bgg .nav_inner_second{
-    background-color: rgba(0, 0, 0, 0.555);
-    color: white;
-    transition: 0.25s;
-}
-
 .header_inner{
     padding: 0;
     margin: 0;
@@ -101,10 +37,15 @@ h2{
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    transition: 0.3s;
+}
+.nav_inner:hover{
+    -webkit-box-shadow: 0px -4px 17px 31px rgba(0, 255, 154, 0.2);
+    -moz-box-shadow: 0px -4px 17px 31px rgba(0, 255, 154, 0.2);
+    box-shadow: 0px -4px 17px 31px rgba(0, 255, 154, 0.2);
 }
 
 .nav_lesson{
+    z-index: 3;
     width: 270px;
     height: 120px;
     float: left;
@@ -113,19 +54,27 @@ h2{
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 4px 6px 25px #d0d0d0;
-    transition: 0.25s;
 }
 .nav_lesson:hover{
-    -webkit-box-shadow: -2px 3px 40px 41px rgba(218, 255, 0, 0.2);
-    -moz-box-shadow: -2px 3px 40px 41px rgba(218, 255, 0, 0.2);
-    box-shadow: -2px 3px 40px 41px rgba(218, 255, 0, 0.2);
-    transition: 0.3s;
+    -webkit-box-shadow: 4px 4px 14px 22px rgba(217, 201, 0, 0.2);
+    -moz-box-shadow: 4px 4px 14px 22px rgba(217, 201, 0, 0.2);
+    box-shadow: 4px 4px 14px 22px rgba(217, 201, 0, 0.2);
 }
-.nav_inner:hover{
-    -webkit-box-shadow: 4px 4px 12px 28px rgba(0, 255, 7, 0.2);
-    -moz-box-shadow: 4px 4px 12px 28px rgba(0, 255, 7, 0.2);
-    box-shadow: 4px 4px 12px 28px rgba(0, 255, 7, 0.2);
-    transition: 0.3s;
+.nav_lesson_second{
+    z-index: 3;
+    width: 270px;
+    height: 120px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 6px 25px #d0d0d0;
+}
+.nav_lesson_second:hover{
+    -webkit-box-shadow: 4px 4px 14px 22px rgba(0, 179, 217, 0.2);
+    -moz-box-shadow: 4px 4px 14px 22px rgba(0, 179, 217, 0.2);
+    box-shadow: 4px 4px 14px 22px rgba(0, 179, 217, 0.2);
 }
 h3{
 text-align: center;
@@ -136,7 +85,6 @@ margin: 10px 0;
     margin-top: 30px;
     padding-top: 10px;
     border-top: 1px solid rgb(221, 214, 214);
-    transition: 0.3s;
 }
 .button{
     display: inline-block;
@@ -156,44 +104,50 @@ margin: 10px 0;
         margin-left: 50px;
 }
 .nav_inner_second{
-    margin-top: 50px;
+    margin-top: 60px;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    transition: 0.5s;
 }
 .nav_inner_second:hover{
-    -webkit-box-shadow: -2px 3px 40px 41px rgba(251, 0, 166, 0.2);
-    -moz-box-shadow: -2px 3px 40px 41px rgba(251, 0, 166, 0.2);
-    box-shadow: -2px 3px 40px 41px rgba(251, 0, 166, 0.2);
-    transition: 0.5s;
+    -webkit-box-shadow: 0px -4px 17px 31px rgba(229, 0, 111, 0.2);
+    -moz-box-shadow: 0px -4px 17px 31px rgba(229, 0, 111, 0.2);
+    box-shadow: 0px -4px 17px 31px rgba(229, 0, 111, 0.2);
 }
 .pashalka{
     margin-top: -320px;
 }
 .image_anime{
-    margin-left: 200px;
+    margin-left: 180px;
 }
 .img_top{
-    margin-top: 173px;
+    position: relative;
+    top: 252px;
+    left: 20px;
 }
-.nav_lesson_second{
-    width: 270px;
-    height: 120px;
-    float: left;
-    margin: 20px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 4px 6px 25px #d0d0d0;
-    transition: 0.3s;
+.image{
+    margin-top: 20px;
+    margin-right: 150px;
 }
-.nav_lesson_second:hover{
-    -webkit-box-shadow: -2px 3px 40px 41px rgba(0, 15, 210, 0.2);
-    -moz-box-shadow: -2px 3px 40px 41px rgba(0, 15, 210, 0.2);
-    box-shadow: -2px 3px 40px 41px rgba(0, 15, 210, 0.2);
-    transition: 0.3s;
+.img_sad{
+    position: relative;
+    right: 550px;
+}
+.funny_face{
+    position: relative;
+    top: 123px;
+    left: 950px;
+    z-index: 1;
+}
+.idiot{
+    position: relative;
+    left: 25px;
+}
+.idk{
+    position: relative;
+    top: 73px;
+    left: 260px;
 }

@@ -178,12 +178,7 @@ html,body{
   font-family: "Montserrat";
   margin-left: 50px;
 }
-.team_images{
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  margin-left: 250px;
-}
+
 .ivan_team{
   display: flex;
   flex-direction: column;
@@ -217,4 +212,13 @@ html,body{
   height:170px;
   width: 170px;
   border-radius:90px;
+}
+.team_images{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.container{
+  max-width: 1200px;
 }
