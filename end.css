@@ -74,7 +74,6 @@
 }
 .hed-sear{
     width: 30px;
-    height: 30px;
     z-index: 0;
     position: relative;
     right: 40px;
@@ -148,13 +147,13 @@ a{
 .kart{
     width: 100%;
     position: absolute;
-    top: 174px;
+    top: 154px;
     left: 0;
 }
 .mask{
     width: 100%;
     position: absolute;
-    top: 174px;
+    top: 154px;
     left: 0;
 }
 header{
@@ -565,6 +564,7 @@ header{
 .nnn{
     background-color: #969696;
     margin: 0%;
+
 }
 .ee3{
     background-color:#F8F8F8;
@@ -990,4 +990,462 @@ a{
 }
 .sdf{
     font-weight: bolder;
+}
+.cont-15{
+    width: 1200px;
+    height: 530px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.NNMA{
+    width: 870px;
+    font-size: 40px;
+}
+.lklkklj{
+    width: 360px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.lklkklj2{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 70px;
+    line-height: 40px;
+}
+.PPOI{
+    display: flex;
+}
+.iuiuhiujnnhiu{
+    position: relative;
+    left: 850px;
+    bottom: 300px;
+}
+.kpo{
+    width: 800px;
+    position: relative;
+    right: 200px;
+}
+.ikjnhbfdjnhiujh{
+    width: 100%;
+    position: static;
+    
+}
+.UFDVUYGBSDHV{
+    font-weight: lighter;
+    width: 700px;
+    position: relative;
+    bottom: 300px;
+}
+.td98{
+    border-bottom: 2px solid #c9c9c9;
+    padding: 10px;
+    width: 450px;
+}
+.td98:hover{
+    border-bottom: 4px solid #DD4053;
+}
+.table98{
+    position: relative;
+    bottom: 320px;
+    
+}
+.p778{
+    font-size: 13px;
+    width: 350px;
+    position: relative;
+    left: 100px;
+}
+.anmv{
+    position: relative;
+    top: 40px;
+}
+.DFBRN{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cont-16{
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.ERGRNRWG{
+    width: 100%;
+    position: relative;
+}
+.rbad{
+    font-weight: lighter;
+    font-size: 40px;
+    width: 700px;
+    color: white;
+    position: relative;
+    bottom: 480px;
+    right: 500px;
+}
+.lbbjk{
+    font-size: 20px;
+    width: 570px;
+    position: relative;
+    bottom: 450px;
+    right: 500px;
+    color: white;
+}
+.seach612135{
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    bottom: 360px;
+    right: 500px;
+    opacity: 0.3;
+    border: 2px solid white;
+}
+.seach612136{
+    background-color: #191C20;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    bottom: 360px;
+    right: 500px;
+}
+.kjh{
+    display: flex;
+}
+.lkj{
+    color: #969696;
+    position: relative;
+    right: 400px;
+    bottom: 360px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.f{
+    color: red;
+}
+.dfgh{
+    font-size: 50px;
+    width: 300px;
+    line-height: 80px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.iupo{
+    font-size: 24px;
+    width: 250px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.ewrvd{
+    width: 800px;
+    position: relative;
+    left: 650px;
+    bottom: 650px;
+}
+.lkjhb{
+    width: 200px;
+    font-size: 70px;
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+}
+.tyuyo{
+    width: 300px;
+    position: relative;
+    bottom: 500px;
+    right: -160px;
+}
+.rtup{
+    font-size: 20px;
+    width: 350px;
+    position: relative;
+    bottom: 470px;
+    left: 190px;
+}
+.iouhvr{
+    width: 1300px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cont-15{
+    width: 1200px;
+    height: 530px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.part{
+    background-color: #F8F8F8;
+    position: relative;
+    bottom: 400px;
+    height: 600px;
+    width: 100%;
+}
+.wrqQE{
+    width: 100%;
+    position: relative;
+    top: 38px;
+}
+.liuernv{
+    font-size: 59px;
+    width: 580px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.iuobhr{
+    font-size: 25px;
+    width: 550px;
+    position: relative;
+    left: 1000px;
+    bottom: 100px;
+}
+.iuhu{
+    width: 814px;
+    height: 140px;
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+    background-color: white;
+}
+.iewv6{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-top: 15px;
+}
+.iewv1{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.iewv1:hover{
+    border-top: 4px solid red;
+}
+.iewv2:hover{
+    border-top: 4px solid red;
+}
+.iewv3:hover{
+    border-top: 4px solid red;
+}
+.iewv4:hover{
+    border-top: 4px solid red;
+}
+.iewv5:hover{
+    border-top: 4px solid red;
+}
+.iewv6:hover{
+    border-top: 4px solid red;
+}
+.iewv2{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+.iewv3{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-bottom: 10px;
+}
+.iewv4{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-bottom: 10px;
+}
+.iewv5{
+    background-color: white;
+    border-right: 1px solid #C4C4C4;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.cont-19{
+    width: 1200px;
+    height: 1430px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.juewuri{
+    position: relative;
+    top: 100px;
+}
+.pokjons{
+    font-size: 35px;
+    width: 700px;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+}
+.utsc{
+    font-size: 20px;
+    width: 560px;
+    position: relative;
+    left: 500px;
+    bottom: 280px;
+}
+.fwhp{
+    font-size: 23px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 100px;
+}
+.but987{
+    position: relative;
+    left: 960px;
+    bottom: 150px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.td97{
+    border-right: 1px solid #E3E3E3;
+    border-top: 2px solid #c9c9c9;
+    padding: 10px;
+    width: 300px;
+}
+.td96{
+    border-top: 2px solid #c9c9c9;
+    padding: 10px;
+    width: 300px;
+}
+.td96:hover{
+    border-top: 4px solid #DD4053;
+    background-color: white;
+}
+.td97:hover{
+    border-top: 4px solid #DD4053;
+    background-color: white;
+}
+.table97{
+    height: 250px;  
+    background-color: #F8F8F8;  
+}
+.p777{
+    font-size: 13px;
+    width: 350px;
+    position: relative;
+}
+.anmn{
+    position: relative;
+    top: 100px;
+    left: 320px;
+}
+.gghhyy{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont-20{
+    width: 1200px;
+    height: 930px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.chtotacoeput{
+    background-color: #E8E8E8;
+}
+.bbrtyyas{
+    width: 100%;
+}
+.yygjuyuvvi{
+    position: relative;
+    bottom: 280px;
+    left: 220px;
+}
+.chto{
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+    background-color: white;
+    height: 600px;
+    width: 1300px;
+}
+.hhguva{
+    position: relative;
+    bottom: 400px;
+    left: 330px;
+}
+
+.erva{
+    width: 1200px;
+    position: relative;
+    left: 40px;
+    bottom: 160px;
+}
+.qrl{
+    font-weight: lighter;
+    font-size: 40px;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.xxrx{
+    font-size: 22px;
+    width: 580px;
+    position: relative;
+    left: 660px;
+    bottom: 30px;
+}
+.btn996{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    background-color: #DD4053;
+    color: white;
+    position: relative;
+    left: 390px;
+    top: 30px;
+    font-weight: 900;
+}
+.rwpppph{
+    width: 100%;
+    position: static;
+}
+.uoho{
+    position: relative;
+    top: 300px;
+}
+.uhpi{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.uiuon{
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.ygni{
+    position: relative;
+    top: 50px;
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.puhm{
+    position: relative;
+    top: 200px
+}
+.lol6{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 23px;
+    border-bottom: 4px solid #DD4053;
+}
+.uhbwfgv{
+    height: 30px;
 }
