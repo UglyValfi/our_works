@@ -1,0 +1,247 @@
+.header_inner{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.logo_valanta{
+    margin-top: -40px;
+}
+.header_uaeng{
+    font-family: 'Questrial', sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+}
+.header_nav_inner{
+    margin-left: 70px;
+}
+.RU{
+    background: #4AD295;
+    border-radius: 2px;
+    color: white;
+    padding: 3px 7px;
+    margin-left: -7px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header_euro_dollar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.header_socia{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.facebook{
+    padding: 0px 5px;
+}
+.header_phones{
+    margin-top: 8px;
+    margin-left: 30px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+}
+.header_phones_phone{
+    display: flex;
+    flex-direction: row;
+}
+.phone{
+    margin-top: -60px;
+    margin-left: 15px;
+}
+.header_maistra{
+    margin-top: 5px;
+    margin-left: -70px;
+}
+.maistra_text{
+    position: relative;
+    top: -20px;
+    left: 180px;
+    font-family: 'Questrial', sans-serif;
+}
+.red_div{
+    width: 55px;
+    height: 56px;
+    background-color: #DD4053;
+    position: relative;
+    top: -60px;
+    left: 370px;
+}
+.bloknot{
+    position: relative;
+    top: 18px;
+    left: 17px;
+}
+.block{
+    position: relative;
+    left: 80px;
+    top: -55px;
+    width: 205px;
+    height: 55px;
+    background: #EFF3F6;
+}
+.turs{
+    font-family: 'Questrial', sans-serif;
+    margin-top: -4px;
+}
+.turs_text{
+    position: relative;
+    left: 130px;
+    top: -5px;
+    z-index: 2;
+    width: 100px;
+}
+.green_div{
+    width: 55px;
+    height: 56px;
+    background-color: #4AD295;
+    position: relative;
+    top: -110px;
+    left: 280px;
+}
+.poisk{
+    position: relative;
+    left: 17px;
+    top: 18px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.poisk_nav{
+    fill: darkgreen;
+}
+
+.ul_nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: -20px;
+}
+.li_nav{
+    padding: 0px 20px;
+}
+.li_navs{
+
+    padding: 0px 20px;
+}
+.li_navs_text{
+    font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    transition: 0.25s;
+}
+.li_navs_text:hover{
+    transition: 0.25s;
+    border-bottom: 1px solid #DD4053;;
+}
+.main{
+    margin-top: 95px;
+}
+.main_inner{
+    display: flex;
+    flex-direction: row;
+}
+.main_left{
+    width: 224px;
+    height: 126px;
+}
+.main_left_text{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    color: #232323;
+}
+.main_right{
+    margin-left: 146px;
+}
+.uhpi_inner{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.uiuon{
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.ygni{
+    position: relative;
+    top: 50px;
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.puhm{
+    position: relative;
+    top: 200px
+}
+.uoho{
+    position: relative;
+    top: 300px;
+}
+.qzddd{
+    color: #969696;
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
+footer{
+    background: linear-gradient(180deg, #F8F8F8 -12.15%, #E8E8E8 100%);
+}
+.qrl{
+    font-weight: lighter;
+    font-size: 40px;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.xxrx{
+    font-size: 22px;
+    width: 580px;
+    position: relative;
+    left: 660px;
+    bottom: 30px;
+}
+.seach3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 20px;
+    opacity: 0.4;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.btn996{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    background-color: #DD4053;
+    color: white;
+    position: relative;
+    left: 390px;
+    top: 30px;
+    font-weight: 900;
+}
+.qz{
+    color: #ffff;
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
