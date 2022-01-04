@@ -1,0 +1,354 @@
+.header_inner{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.logo_valanta{
+    margin-top: -40px;
+}
+.header_uaeng{
+    font-family: 'Questrial', sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+}
+.header_nav_inner{
+    margin-left: 70px;
+}
+.RU{
+    background: #4AD295;
+    border-radius: 2px;
+    color: white;
+    padding: 3px 7px;
+    margin-left: -7px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header_euro_dollar{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.header_socia{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.facebook{
+    padding: 0px 5px;
+}
+.header_phones{
+    margin-top: 8px;
+    margin-left: 30px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+}
+.header_phones_phone{
+    display: flex;
+    flex-direction: row;
+}
+.phone{
+    margin-top: -60px;
+    margin-left: 15px;
+}
+.header_maistra{
+    margin-top: 5px;
+    margin-left: -70px;
+}
+.maistra_text{
+    position: relative;
+    top: -20px;
+    left: 180px;
+    font-family: 'Questrial', sans-serif;
+}
+.red_div{
+    width: 55px;
+    height: 56px;
+    background-color: #DD4053;
+    position: relative;
+    top: -60px;
+    left: 370px;
+}
+.bloknot{
+    position: relative;
+    top: 18px;
+    left: 17px;
+}
+.block{
+    position: relative;
+    left: 80px;
+    top: -55px;
+    width: 205px;
+    height: 55px;
+    background: #EFF3F6;
+}
+.turs{
+    font-family: 'Questrial', sans-serif;
+    margin-top: -4px;
+}
+.turs_text{
+    position: relative;
+    left: 130px;
+    top: -5px;
+    z-index: 2;
+    width: 100px;
+}
+.green_div{
+    width: 55px;
+    height: 56px;
+    background-color: #4AD295;
+    position: relative;
+    top: -110px;
+    left: 280px;
+}
+.poisk{
+    position: relative;
+    left: 17px;
+    top: 18px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.poisk_nav{
+    fill: darkgreen;
+}
+
+.ul_nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: -20px;
+}
+.li_nav{
+    padding: 0px 20px;
+}
+.li_navs{
+
+    padding: 0px 20px;
+}
+.li_navs_text{
+    font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    transition: 0.25s;
+}
+.li_navs_text:hover{
+    transition: 0.25s;
+    border-bottom: 1px solid #DD4053;;
+}
+.main{
+    margin-top: 162px;
+}
+.main_inner{
+    display: flex;
+    flex-direction: row;
+}
+.main_right{
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.three_card{
+    margin-top: 30px;
+    
+}
+.three_card_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom:1px solid #D0D0D0;
+}
+.card_body_third{
+    border-radius:5px;
+    margin-top: -18px;
+    width: 274px;
+    height: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+}
+.card_date{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BBBBBB;
+    padding-left: 25px;
+}
+.date_img{
+    margin-top: 5px;
+    margin-left: -120px;
+}
+.card_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #323232;
+}
+.card_details{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #232323;
+    transition: 0.5s;
+    width: 70px;
+}
+.four_page_inner{
+    display: flex;
+    
+}
+.four_page{
+    margin-top: 50px;
+}
+.two_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.second_card{
+    margin-left: 50px;
+}
+.fiveth_page{
+    margin-top: 120px;
+}
+.fiveth_page_text{
+    color: #232323;
+    font-weight: 700px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.line_second{
+    width: 340px;
+    height: 1px;
+    margin-left: 100px;
+    margin-top: 18px;
+}
+.fiveth_page_button{
+    margin-left: 50px;
+}
+.third_page_button_text{
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    border:1px solid #969696;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+.third_page_button_text:hover{
+    transition: 0.5s;
+    padding: 30px 50px;
+}
+.third_card{
+    margin-top: 20px;
+}
+.third_card_inner{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.last_page{
+    margin-top: 182px;
+}
+.last_page_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 55px;
+    color: #232323;
+}
+.button_text{
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #969696;
+    padding: 10px 30px;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+.uhpi_inner{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.uiuon{
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.ygni{
+    position: relative;
+    top: 50px;
+    color: #3E3E3E;
+    opacity: 0.4;
+}
+.puhm{
+    position: relative;
+    top: 200px
+}
+.uoho{
+    position: relative;
+    top: 300px;
+}
+.qzddd{
+    color: #969696;
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
+footer{
+    background: linear-gradient(180deg, #F8F8F8 -12.15%, #E8E8E8 100%);
+}
+.qrl{
+    font-weight: lighter;
+    font-size: 40px;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.xxrx{
+    font-size: 22px;
+    width: 580px;
+    position: relative;
+    left: 660px;
+    bottom: 30px;
+}
+.seach3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 20px;
+    opacity: 0.4;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.btn996{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    background-color: #DD4053;
+    color: white;
+    position: relative;
+    left: 390px;
+    top: 30px;
+    font-weight: 900;
+}
+.qz{
+    color: #ffff;
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
